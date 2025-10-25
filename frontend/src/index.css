@@ -1,0 +1,9 @@
+/* Hackathon/frontend/src/index.css */
+
+@import "tailwindcss";
+
+/* Optional: Add any other global styles below this line */
+body {
+    font-family: sans-serif;
+    /* other global resets or styles */
+}
