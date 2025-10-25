@@ -9,10 +9,10 @@ const getAuthHeaders = () => {
 };
 
 // ---------------- API calls ----------------
-export const createAccount = async (account_type, initial_balance) => {
+export const createAccount = async (account_type, initial_deposit) => {
   const response = await axios.post(
     `${API_URL}/accounts/`,
-    { account_type, initial_balance }, // <-- body
+    { account_type, initial_deposit }, // <-- body
     { headers: getAuthHeaders() }
   );
   return response.data;
