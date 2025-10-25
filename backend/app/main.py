@@ -11,6 +11,7 @@ app = FastAPI(title="SmartBank API", version="1.0")
 
 origins = [
     "http://localhost:5173",
+    "https://hclhackathon2025.onrender.com"
     # You can add more allowed origins here
 ]
 
